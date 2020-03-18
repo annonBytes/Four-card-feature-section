@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: monospace;
+  font-size: 17px;
+  text-align: center;
+  margin-top: 25%;
+  background: #4b6cb7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #182848,
+    #4b6cb7
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #182848,
+    #4b6cb7
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1 {
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 80px;
+}
+
+a {
+  color: #4b6cb7;
+  text-decoration: none;
+  font-weight: 200;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: white;
+}
