@@ -3,34 +3,47 @@
 }
 
 body {
-  font-family: monospace;
-  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+  background: #efefef;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  width: 600px;
+  margin: 100px 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px 0.5px rgba(0, 0, 0, 0.2);
+}
+
+.feature {
   text-align: center;
-  margin-top: 25%;
-  background: #4b6cb7; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #182848,
-    #4b6cb7
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #182848,
-    #4b6cb7
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #000;
+  font-size: 24px;
+  margin: auto;
 }
 
-h1 {
+footer {
+  background-color: #222;
   color: #fff;
-  font-weight: 600;
-  margin-bottom: 80px;
+  font-size: 18px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
 }
 
-a {
-  color: #4b6cb7;
-  text-decoration: none;
-  font-weight: 200;
-  border-radius: 5px;
-  padding: 20px;
-  background-color: white;
+footer a {
+  color: #fff;
+}
+
+a:hover img {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
 }
